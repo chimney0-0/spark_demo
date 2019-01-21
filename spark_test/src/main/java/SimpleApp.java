@@ -13,6 +13,7 @@ public class SimpleApp {
         long numAs = logData.filter(s -> s.contains("a")).count();
         long numBs = logData.filter(s -> s.contains("b")).count();
 
+
         while (true) {
             System.out.println("Lines with a: " + numAs + ", lines with b: " + numBs);
             try {
